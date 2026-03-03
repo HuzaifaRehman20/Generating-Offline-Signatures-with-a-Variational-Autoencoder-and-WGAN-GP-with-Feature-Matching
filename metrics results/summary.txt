@@ -1,0 +1,8 @@
+Q1 — VAE + WGAN-GP+FM (Signatures from ZIP)
+Run: q1_from_zip_vae_wgan
+Time: 2025-11-02 07:21:28.530104
+Train imgs: 1649 | Test imgs: 500
+VAE: epochs=40, lr=0.0002, beta_final=1.0, warmup=10
+WGAN-GP: epochs=80, n_critic=5, λ_gp=10.0, TTUR G/D=0.0001/0.00015, FM_W=10.0
+Test Reconstruction (BCE): 0.259494
+Artifacts: vae_recon.png, vae_samples.png, vae_losses.png, gan_losses.png, gan_samples_epXXX.png, gan_samples_final.png
